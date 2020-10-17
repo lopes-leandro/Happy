@@ -102,3 +102,21 @@ main h1 {
         margin: initial;
     }
 }
+
+#particles-container {
+    z-index: 449;
+    background: linear-gradient(329.54deg, #9329d1 0%, #8257E6 100%);
+    position: absolute;
+}
+
+
+#container2 {
+    margin-left: 10rem;
+    padding: 5rem 2rem;
+    /*Shorthand background: image no-repeat position / size*/
+    background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
+    position: absolute;
+    display: flow-root;
+    z-index: 500;
+    
+}

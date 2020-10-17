@@ -55,3 +55,28 @@
 .button-select button:last-child {
     border-radius: 0 2rem 2rem 0;
 }
+
+.theme {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    position: absolute;
+    display: flex;
+    background-color: #8257E6;
+    cursor: pointer;
+    z-index: 1000;
+}
+.themeOriginal {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    position: absolute;
+    display: flex;
+    background-color: #FD951F;
+    cursor: pointer;
+    z-index: 1000;
+}

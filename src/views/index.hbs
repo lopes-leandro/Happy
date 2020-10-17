@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/page-landing.css">
     <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/buttons.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   </head>
   <body>
     <div id="page-landing">
-      <div id="container">
+      <button class="theme" onclick="changeClass()"></button>
+      <a href="/" class="home" title="Ir para pagina inicial"><button class="themeOriginal" onclick="originalClass()"></button></a>
+      <div id="container2">
         <header>
           <img
           class="animate-up"
@@ -40,5 +44,6 @@
         </main>
       </div>
     </div>
+    <script src="/scripts/page-landing.js"></script>
   </body>
 </html>
