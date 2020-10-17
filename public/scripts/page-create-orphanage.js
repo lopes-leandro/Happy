@@ -83,3 +83,12 @@ function toggleSelect(event) {
     // check if it's yes or no
     input.value = button.dataset.value
 }
+
+function validate(event) {
+    // validate if point on the map is selected
+    const needsLatAndLng = false;
+    if (needsLatAndLng) {
+        event.preventDefault()
+        alert('Selecione um ponto no mapa')
+    }
+}

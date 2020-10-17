@@ -23,10 +23,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="oage-create-orphanage">
+    <div id="page-create-orphanage">
       <aside class="animate-right sidebar">
 
-        <img src="/images/map-marker.svg" alt="Happy">
+        <a href="/" class="home" title="Ir para pagina inicial"><img src="/images/map-marker.svg" alt="Happy"></a>
 
         <footer>
           <button onclick="history.back()">
@@ -38,7 +38,7 @@
 
       <main class="animate-appear with-sidebar">
 
-        <form action="">
+        <form action="save-orphanage" method="post" unsubmit="validate(event)">
 
           <fieldset>
             <legend>Dados</legend>
@@ -74,7 +74,7 @@
               <div class="images-upload" id="images">
 
                 <div class="new-upload">
-                  <input name="images" placeholder="Cole o link da foto aqui" required>
+                  <input name="images" placeholder="Cole o link da foto aqui" required type="url">
                   <span onclick="deleteField(event)">
                     <img src="/images/remove-file.svg" alt="Remover foto">
                   </span>

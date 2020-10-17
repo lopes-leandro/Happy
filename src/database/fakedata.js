@@ -20,7 +20,7 @@ module.exports = [
         id: 2,
         lat: "-27.222633",
         lng: "-49.6555874",
-        name: "Lar dos meninos",
+        name: "Lar dos meninas",
         description: "Presta assistencia a criancas de 06 a 15 anos que se encontre em situacao de risco e/ou vulnerabilidade social.",
         images: [
 
@@ -30,6 +30,6 @@ module.exports = [
         ],
         instructions: "Venha se sentir a vontade e traga muito amor e paciencia para dar.",
         opening_hours: "Horario de visitas das 08h ate as 18h",
-        open_on_weekends: "0"
+        open_on_weekends: "1"
     }
 ]
