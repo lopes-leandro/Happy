@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const pages = require('./pages.js')
-
+const port = process.env.PORT
 // initializing express
 const server = express()
 server
@@ -24,4 +24,4 @@ server
     .post('/save-orphanage', pages.saveOrphanage)
 
 // turn server on
-server.listen(3000)
+server.listen(port, console.log(`Servidor executando na porta ${port}`));
