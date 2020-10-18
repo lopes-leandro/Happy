@@ -4,6 +4,7 @@
   "description": "Application done on Next Level Week promoted by Rocketseat - Brazil",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js"
   },
   "repository": {
